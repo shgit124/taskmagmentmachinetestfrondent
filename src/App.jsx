@@ -14,7 +14,7 @@ function App() {
 <nav
   className="nav justify-content-center  "
 >
-  <Link to={'/addtask'} className="nav-link active" href="#" aria-current="page" >Add newtask</Link >
+  <Link to={'/addtask'} className="nav-link active"  aria-current="page" >Add newtask</Link >
   <Link to={'/listTask'} className="nav-link" href="#">Task list</Link>
   <a className="nav-link " href="#"></a>
 </nav>

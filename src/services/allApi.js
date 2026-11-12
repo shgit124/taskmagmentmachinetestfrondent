@@ -8,3 +8,7 @@ export const addTaskApi = async(data)=>{
   return  await commnApi("POST",`${baseurl}/addtask`,data)
 }
 
+export const listTaskApi = async()=>{
+  return await commnApi("GET",`${baseurl}/listTask`,{})
+}
+
