@@ -21,7 +21,7 @@ useEffect(()=>{
 
   <>
 
-  <div className='d-flex justify-content-center align-items-center' style={{height:"80vh"}}>
+  <div className='d-flex justify-content-center align-items-center' style={{height:"100%"}}>
     <div className='w-75 '>
 <div className='table-responsive'>
     <h3 className='text-center'>task list</h3>
