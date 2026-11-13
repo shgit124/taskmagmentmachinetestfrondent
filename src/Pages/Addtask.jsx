@@ -17,7 +17,7 @@ function Addtask() {
         const response = await addTaskApi(collecttask)
         console.log(collecttask)
         setcollecttask(response.data)
-        if(response.status===200){
+        if(response.status===200 || response.status===201){
           alert("task added successfully")
           setcollecttask({
             addtask:"",description:""
